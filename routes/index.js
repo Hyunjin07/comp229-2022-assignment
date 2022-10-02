@@ -34,7 +34,7 @@ router.get('/contact', function(req, res, next) {
 
 /*redircet from contact page to home page*/ 
 router.post("/contact", function (req, res) {
-  res.redirect("/");
+  res.redirect("/https://comp229-2022-assignment.herokuapp.com/home");
   response = {
     first_name: req.query.first_name,
     last_name: req.query.last_name,
